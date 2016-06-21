@@ -95,7 +95,7 @@ aside ul{
 	min-width: 800px;
 	max-width: 800px;
 	display: inline-block;
-	margin: 10px 275.5px 0px 275.5px;
+	margin: 10px 20% 0px 20%;
 }
 
 #war{
@@ -138,12 +138,12 @@ footer a{
 }
 
 #fo_size{
-	min-width: 1150px;
-	max-width: 1150px;
+	min-width: 1148px;
+	max-width: 1148px;
 	margin:0px 108px 0px 108px;
 
 }
-
+/*
 #blizz{
 	margin: 97px 21px 69px 146px;
 	position: absolute;
@@ -158,7 +158,32 @@ footer a{
 	margin:12px 139px 21px 6px;
 	position: relative;
 }
+*/
 
+
+#div_blizz img{
+	padding-top: 77px;
+}
+/*
+#div_wowhead{
+	display: inline-block;
+}
+
+#div_wow_leg{
+	display:inline-block;
+}
+*/
+#prueba{
+	text-align: center;
+}
+#prueba div{
+	display: inline-block;
+	width: 280px;
+	height: 223.016px;
+	overflow: hidden;
+	text-align: center;
+	margin: 0 auto;
+}
 #wowleg img{
 	width: 280px;
 }
