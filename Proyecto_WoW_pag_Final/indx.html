@@ -31,7 +31,7 @@
 		<article id="prin_video">
 			<iframe src="https://www.youtube.com/embed/a4Ih751Ytrk" frameborder="0" allowfullscreen></iframe>
 		</article>
-		<article>
+		<article id="art_intro">
 			<h2 id="war">Warcraft</h2>
 			<p id="intro">
 				Después de años de languidecer en cautiverio, los orcos de Azeroth fueron liberados por un otrora esclavo llamado Thrall. Este joven chamán y su Horda reformada huyeron al continente de Kalimdor para escapar de la invasión de la Legión Ardiente, un ejército demoníaco que buscaba devastar todo Azeroth. Para debilitar las defensas del mundo, la Legión desató una espantosa arma nueva: la Plaga de no-muertos. Arthas Menethil, príncipe de Lordaeron, luchó con valentía para proteger su tierra de este temible enemigo, pero su miedo y desesperación lo condujeron a aliarse con el Rey Exánime, el misterioso líder de la Plaga. En Kalimdor, la Horda de Thrall hizo a un lado su ancestral odio y se alió con otras razas para detener un masivo asalto de la Legión dirigido por Archimonde. A un precio muy alto, la improbable unión de humanos, elfos de la noche y orcos resultó victoriosa en la cúspide del sagrado Monte Hyjal.
@@ -45,22 +45,26 @@
 		</article>
 		<article>
 			<form>
-				<h3>Encuesta</h3>
+				<h3>Cuentanos tu expericia en World of Warcraft</h3>
 				<fieldset>
-					<legend>Legend 1</legend>
-					<label>Label 1</label>
-					<input type="text" required />
+					<legend>Datos generales</legend>
+					<label>Nombre (o nombre de su personaje)</label>
+					<input type="text" required placeholder="Nombre" />
 					<br />
-					<label>Label 2</label>
-					<input type="number" required />
-					<br />
-					<label>Label 3</label>
+					<label>¿Hace cuantos años juega World of Warcraft?</label>
+					<input type="number" required max="15" />
+					<br />	
+					<label>¿En cual reino juega usted?</label>
 					<select>
-					<option value="opcion_1">Opción 1</option>
-					<option>Opción 2</option>
+						<option value="quel_thalas">Quel'Thalas</option>
+						<option value="exodar">Exodar</option>
+						<option value="tyrande">Tyrande</option>
+						<option value="los_herrantes">Los Herrantes</option>
+						<option value="colinas_pardas">Colinas Pardas</option>
 					</select>
 					<br />
-					<label>label 4</label>
+					<label>Que experiencias ha tenido en World of Warcraft</label>
+					<br />
 					<textarea></textarea>
 				</fieldset>
 				<fieldset>
@@ -80,7 +84,7 @@
 				<button type="reset"><img src="" alt="" tittle="" /></button>
 			</form>
 		</article>
-		<article>
+		<article id="map_prin">
 			<img src="img/WoW_Cataclysm_Banner.png" alt="cataclysm" title="cataclysm" usemap="#map_1" />
 			<map name="map_1">
 				<area shape="rect" href="lore.html" coords="20, 0, 250, 185" />
@@ -105,9 +109,11 @@
 				<a href="#">WoW Forum</a>
 				<a href="#">YouTube/wowes</a>
 			</div>
-			<q id="quote_footer">Todas las marcas aquí mencionadas son propiedad de sus respectivos dueños. 
-			©2016 Blizzard Entertainment. Todos los derechos reservados.
-			</q>
+			<div id="prueba_1">
+				<p id="quote_footer">Todas las marcas aquí mencionadas son propiedad de sus respectivos dueños. 
+				©2016 Blizzard Entertainment. Todos los derechos reservados.
+				</p>
+			</div>
 		</div>
 	</footer>
 </body>

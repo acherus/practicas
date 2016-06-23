@@ -105,7 +105,11 @@ aside ul{
 	font-family: warcraft;
 	font-size: 24px;
 	text-align: center;
-	margin-top: 10px;
+	padding-top: 10px;
+}
+#art_intro{
+	background-image: url();
+	background-size: 100% 100%;
 }
 
 #intro{
@@ -126,8 +130,31 @@ aside ul{
 	width:398px;
 	height: 198px;
 	border:0px;
-	margin: 0px;
+	margin: 0px 0px 20px 0px;
 	padding: 0px;
+}
+/*Formulario*/
+
+form h3{
+	text-align: center;
+	font-family: warcraft, verdana;
+	font-size: 18px;
+	margin-bottom: 20px;
+}
+
+input, textarea, select{
+	border:1px solid #0066A1;
+	border-radius: 2px;
+}
+textarea{
+	max-width: 400px;
+	max-height: 180px;
+	min-width: 400px;
+	min-height: 180px;
+}
+
+label{
+	padding: 2px 2px;
 }
 
 /*footer*/
@@ -141,9 +168,10 @@ footer a{
 }
 
 #fo_size{
-	min-width: 1148px;
-	max-width: 1148px;
+	min-width: 1150px;
+	max-width: 1150px;
 	margin:0px 108px 0px 108px;
+	height: 310px;
 
 }
 /*
@@ -203,6 +231,11 @@ footer a{
 }
 
 #quote_footer{
-	text-align:right;
-	color:#010e16;
+	color:#0066A1;
+	font-size: 11px;
+}
+#prueba_1{
+	text-align: center;
+	width: 600px;
+	margin: 5px 275px 0px 275px;
 }
