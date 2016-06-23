@@ -105,11 +105,7 @@ aside ul{
 	font-family: warcraft;
 	font-size: 24px;
 	text-align: center;
-	padding-top: 10px;
-}
-#art_intro{
-	background-image: url();
-	background-size: 100% 100%;
+	margin-top: 10px;
 }
 
 #intro{
@@ -127,7 +123,7 @@ aside ul{
 }
 .secun_video iframe{
 	display: inline-block;
-	width:398px;
+	width:400px;
 	height: 198px;
 	border:0px;
 	margin: 0px 0px 20px 0px;
@@ -135,11 +131,35 @@ aside ul{
 }
 /*Formulario*/
 
-form h3{
+#fondo_form{
+	background-image: url(img/wow_fondo_1.jpg);
+	background-size: 100% 100%;
+	margin-top: 208px;
+}
+
+#fondo_form h3{
+	color:#0066A1;
 	text-align: center;
 	font-family: warcraft, verdana;
 	font-size: 18px;
-	margin-bottom: 20px;
+	margin-bottom: 15px;
+}
+
+form{
+	min-width: 93%;
+	max-width: 93%;
+	margin: 0px 3.5% 0px 3.5%;
+}
+
+form, input, textarea, select{
+	background-color: rgba(60,60,100,0.3);
+}
+fieldset{
+	border: 1px solid black;
+}
+
+legend{
+	
 }
 
 input, textarea, select{
@@ -156,7 +176,6 @@ textarea{
 label{
 	padding: 2px 2px;
 }
-
 /*footer*/
 footer{
 	position: relative;
@@ -171,7 +190,7 @@ footer a{
 	min-width: 1150px;
 	max-width: 1150px;
 	margin:0px 108px 0px 108px;
-	height: 310px;
+	height: 310px
 
 }
 /*
