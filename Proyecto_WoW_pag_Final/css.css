@@ -131,10 +131,16 @@ aside ul{
 }
 /*Formulario*/
 
+/*#art_form{
+	height: 800px;
+}*/
+
 #fondo_form{
-	background-image: url(img/wow_fondo_1.jpg);
-	background-size: 100% 100%;
+	background-image: url(img/wow_fondo_1.jpg), url(img/wow_fondo_2.jpg);
+	background-size: 800px 400px;
 	margin-top: 208px;
+	background-position: top, bottom;
+	background-repeat: no-repeat;
 }
 
 #fondo_form h3{
@@ -145,21 +151,43 @@ aside ul{
 	margin-bottom: 15px;
 }
 
+#cont_form{
+	background: rgba(60,60,60,0.2);
+	height: 100%;
+	width: 100%;
+}
+
 form{
 	min-width: 93%;
 	max-width: 93%;
 	margin: 0px 3.5% 0px 3.5%;
+	font-size: 1.12em;
 }
 
-form, input, textarea, select{
+#field_one, input, textarea, select{
 	background-color: rgba(60,60,100,0.3);
 }
-fieldset{
-	border: 1px solid black;
+
+#field_two{
+	margin-top: 35px;
+	background: rgba(200, 42, 39, 0.3);
 }
 
 legend{
-	
+	font-size: 1.6em;
+	font-weight: bold;
+}
+
+#legend_1{
+	color: #0F2F72;
+	background: rgba(60,60,100,0.3);
+	border-radius: 7px;
+}
+
+#legend_2{
+	color: #BA0B08;	
+	background: rgba(200, 42, 39, 0.3);
+	border-radius: 7px;
 }
 
 input, textarea, select{
